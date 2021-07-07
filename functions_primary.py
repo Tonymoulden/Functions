@@ -1,5 +1,5 @@
-# author:
-# date:
+# author: Tony Moulden
+# date: 07/07/21
 
 
 # --------------- Section 1 --------------- #
@@ -25,6 +25,12 @@
 # 1 is done for you.
 
 print('The absolute value of -15 is:', abs(-15))
+print('the hexidecimal value of 21 is:', hex(21))
+print('this is the id for 21:', id(21))
+print('this is the answer for 2^5:', pow(2, 5))
+print('this is 3.75123 rounded:', round(3.75123))
+print('this is the full length of my name:', len('tony'+ 'moulden'))
+
 
 
 # --------------- Section 2 --------------- #
@@ -43,8 +49,21 @@ print('The absolute value of -15 is:', abs(-15))
 #   1 - Call each function once.
 #
 # WRITE CODE BELOW
+def my_name():
+    print('Tony Moulden')
+my_name()
 
+def my_animals():
+    print('Cheetah')
+    print('Hippo')
+    print('cats')
+my_animals()
 
+def my_odds():
+    print('3')
+    print('7')
+    print('11')
+my_odds()
 # 2 | Function Definitions with Parameters
 #
 # Relevant Documentation:
@@ -71,3 +90,14 @@ print('The absolute value of -15 is:', abs(-15))
 #   2 - For the 3rd function, save the return value to a variable and print it.
 #
 # WRITE CODE BELOW
+def my_cube(num):
+    print(num**3)
+my_cube(22)
+
+def my_sum3(a, b, c):
+    print(a + b + c)
+my_sum3(22, 11, 33)
+
+def my_strings5():
+    print('Beyonce'*5)
+my_strings5()
